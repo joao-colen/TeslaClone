@@ -35,7 +35,7 @@ const CartItem = (props) => {
                     type="secondary" 
                     content={"Existing Inventory"} 
                     onPress={() => {
-                        console.log('Existing Inventory was pressed!')
+                        console.warn('Existing Inventory was pressed!')
                     }}
                 >
                 </StyledButton>
